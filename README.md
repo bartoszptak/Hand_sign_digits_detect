@@ -1,1 +1,1 @@
-# Hand_sign_digits_detect
+# Hand sign digits detect
