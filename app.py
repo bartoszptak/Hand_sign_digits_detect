@@ -35,6 +35,8 @@ def camera_start():
                     (0, 0, 255), 2, cv2.LINE_AA)
         print(text)
         cv2.imshow('result', frame)
+        if text == 'Five' or text == 'Three':
+            cv2.waitKey(0)
         key = cv2.waitKey(30)
 
     cap.release()
